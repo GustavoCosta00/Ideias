@@ -37,6 +37,7 @@ const criar_ideia = async () => {
 </script>
 
 <template>
+  
   <div class="page-wrapper">
     <div class="form-container">
       <h1>IDEIAS</h1>
