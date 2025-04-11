@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   compatibilityDate: "2025-04-11",
   runtimeConfig: {
-    MONGO_URI: process.env.MONGO_URI,
+    MONGO_URI: '', // NÃO usa process.env aqui!
+    public: {}
   }
 });
