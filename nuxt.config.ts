@@ -2,6 +2,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   compatibilityDate: "2025-04-11",
   runtimeConfig: {
-    MONGO_URI: process.env.MONGO_URI // COLOQUE O NPM INSTALL PROCESS
+    MONGO_URI: process.env.MONGO_URI,
   }
 });
