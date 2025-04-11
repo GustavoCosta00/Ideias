@@ -12,6 +12,7 @@ const Ideia = new mongoose.Schema({
     ideia: {
         type: String,
         required:[true, 'A ideia é obrigatória']
+        
     },
 })
 
